@@ -1,7 +1,3 @@
 {
-  "version": 1,
-  "name": "dev-web-mdescort",
-  "rewrites": [
-    {"source": "/:a*", "destination": "/"}
-  ]
+  "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
 }
